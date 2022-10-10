@@ -42,7 +42,9 @@ h2 {
     padding-left: 1rem;
     font-size: 1.8rem;
 }
-
+.enlaces-header {
+    margin-right: 10px;
+}
 .enlace-header{
     color:white;
     padding-right: 2rem;
@@ -460,6 +462,7 @@ footer {
     }
 }
 @media screen and (max-width: 768px) {
+
     #check-menu:checked + .enlaces-header {
         display:flex;
         flex-flow: column wrap;
@@ -467,7 +470,7 @@ footer {
         align-items: center;
      
         position:fixed;
-        top:4rem;
+        top:0px;
         height: 100vh;
         width: 100vw;
         background-color: #413F40;
@@ -477,8 +480,11 @@ footer {
         font-size: 2rem;
     }
     .boton-menu {
-        padding-right: 3.5rem;
         display: block;
+        position: fixed;
+        top:20px;
+        right: 1rem;
+        z-index: 200;
     }
     .enlaces-header {
         display: none;
@@ -611,6 +617,9 @@ footer {
     .nav-header {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .logo{
+        display: none;
     }
     .content-burbuja{
         max-width: 120px;

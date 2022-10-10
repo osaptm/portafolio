@@ -622,8 +622,13 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .logo{
-        display: none;
+    main > h1 {
+        order:1;
+        font-size: 2rem;
+    }
+    .my-description{
+        order:2;
+        font-size: 1.5rem;
     }
     .content-burbuja{
         max-width: 120px;
@@ -650,5 +655,9 @@ footer {
     }
 }
 
-
+@media screen and (max-width: 270px) {
+    .logo{
+        display: none;
+    }
+}
 

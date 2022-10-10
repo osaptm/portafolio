@@ -485,7 +485,7 @@ footer {
     }
     .boton-menu {
         display: block;
-        position: fixed;
+        position: absolute;
         top:20px;
         right: 1rem;
         z-index: 200;

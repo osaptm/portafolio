@@ -479,6 +479,10 @@ footer {
     h2 {
         font-size: 2rem;
     }
+    .logo {
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
     .boton-menu {
         display: block;
         position: fixed;
